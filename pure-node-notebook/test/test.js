@@ -21,4 +21,4 @@ const nedirname=path.join(dirPath,"/index1.html");
 fs.rename(dirname,nedirname,(a,b)=>{
     console.log(a);
     console.log(b);
-})
+});
